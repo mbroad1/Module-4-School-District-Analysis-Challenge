@@ -15,10 +15,12 @@ A supervisor in charge of evaluating the school district budget for the followin
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20Summary%20DF_Original.png)
 - Since these values are missing, the original calculations for "% Passing Math", "% Passing Reading", and "% Overall Passing" are all skewed to be lower because not all students included in the total for the division to get these percentages have scores (aka, the 9th graders do not have scores).
 - Therefore, when you convert the math and reading scores of the 9th graders from Thomas High School to "NaN" (null scores) and exclude the 9th graders in the total student count to get the percentages for math, reading, and overall passing, you will get the true values of what the "% Passing Math", "% Passing Reading", and "% Overall Passing" are actually supposed to be in Thomas High School.
+
 - In the original analysis for Thomas High School:
   - % Passing Math = 66.91
   - $ Passing Reading = 69.66
   - % Overall Passing = 65.08
+  - 
 - In the updated analysis for Thomas High School:
   - % Passing Math = 93.27
   - $ Passing Reading = 97.31
