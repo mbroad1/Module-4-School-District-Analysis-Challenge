@@ -66,3 +66,11 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ### Updated Scores by School Size:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20Size_Updated.png)
+
+## Scores by School Type
+- Finally, the scores by school type analysis was also unaffected by the replacement of the math and reading scores of the 9th graders of Thomas High School with null values.
+### Original Scores by School Type:
+![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20School%20Type_Original.png)
+
+### Updated Scores by School Type:
+![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20School%20Type_Updated.png)
