@@ -38,6 +38,8 @@ A supervisor in charge of evaluating the school district budget for the followin
 ## Math and Reading Scores by Grade
 ### Original Math Scores by Grade:
 <img src="https://github.com/mbroad1/School_District_Analysis/blob/main/Math%20By%20Grade%20DF_Original.png" width="350" height="500"> 
-### Updated Math Scores by Grade: <img src="https://github.com/mbroad1/School_District_Analysis/blob/main/Math%20By%20Grade%20DF_Updated.png" width="350" height="500">
+
+### Updated Math Scores by Grade: 
+<img src="https://github.com/mbroad1/School_District_Analysis/blob/main/Math%20By%20Grade%20DF_Updated.png" width="350" height="500">
 - The only score changed by replacing the 9th grade scores of Thomas High School with "NaN" was the average math score for the Thomas High School 9th graders, with the original value of 83.6 being replaced with a "nan"
 
