@@ -6,8 +6,8 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ### Updated District Summary:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20District%20Summary%20DF_Updated.png)
-- The **district summary** is unaffected by the new analysis shown above because there were no new scores of reading or math added in this analysis, and no existing scores of reading or math were removed in this analysis.
-- The only difference between the new analysis and the older analysis is the formatting of the numbers (see the below image to see the format of the older analysis' numbers)
+- The **district summary** is unaffected by the updated analysis shown above because there were no new scores of reading or math added in this analysis, and no existing scores of reading or math were removed in this analysis.
+- The only difference between the updated analysis and the older analysis is the formatting of the numbers (see the below image to see the format of the older analysis' numbers)
 ### Original District Summary:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20District%20Summary%20DF_Original.png)
 ---
@@ -24,7 +24,7 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ### Updated School Summary:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20Summary%20DF_Updated.png)
-- The only part of the **school summary** analysis that is affected are Thomas High School's "% Passing Math", "% Passing Reading", and "% Overall Passing" values.
+- The only part of the **school summary** analysis that is affected are Thomas High School's "Average Math", "Average Reading", "% Passing Math", "% Passing Reading", and "% Overall Passing" values.
   - These values were affected because in the original analysis (shown in the image below), the 9th graders of Thomas High School were included in the total student count; however, the math scores and reading scores of the 9th graders at Thomas High School are **all** missing.
 ### Original School Summary: 
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20Summary%20DF_Original.png)
