@@ -74,3 +74,13 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ### Updated Scores by School Type:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20School%20Type_Updated.png)
+---
+## Summary
+- The four main changes that occurred due to conversion of the math and reading scores of the 9th graders of Thomas High School to "NaN" was:
+  -  The % Passing Math score of Thomas High School went from 66.91 to 93.27 in the district summary dataframe.
+  -  The % Passing Reading score of Thomas High School went from 69.66 to 97.31 in the district summary dataframe.
+  -  The % Overall Passing score of Thomas High School went from 65.08 to 90.95 in the district summary dataframe.
+  -  The average reading score and the average math score of the 9th graders of Thomas High School went from a numerical value to "nan" in the math and reading scores by grade analysis.
+
+- Overall, according to this comparative analysis of the original analysis vs. the updated analysis with the null Thomas High School 9th grader math and reading scores, we can conclude that changing the math and reading scores to null for this specific group of students did not affect the other analyses performed – the only results affected were the average scores and percentages pertaining to Thomas High School as seen in the district summary dataframe.
+- However, with that said, I am surprised by this result because changing the scores of the 9th graders of Thomas High School to null had a profound effect in chaning all the numbers pertaining to Thomas High School; I would have expected some change in the numbers from the original analysis to the updated analysis like in the school type and school size analyses.
