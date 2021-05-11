@@ -52,8 +52,12 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ## Scores by School Spending
 - There is no difference between the original analysis for math, reading, and overall scores by school spending and the updated analysis for math, reading, and overall scores by school spending as shown in the two images below.
+- Therefore, replacing the math and reading scores of the 9th graders of Thomas High School did not affect this analysis.
 ### Original Scores by School Spending:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20By%20Spending_Original.png)
 
 ### Updated Scores by School Spending:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20By%20Spending_Updated.png)
+
+## Scores by School Size
+- Like with the scores by school spending analysis, there was no difference between the original scores by school size analysis and the updated scores by school size analysis that included the null values 
