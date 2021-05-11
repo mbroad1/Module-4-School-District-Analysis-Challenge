@@ -41,15 +41,12 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ### Updated Math Scores by Grade: 
 <img src="https://github.com/mbroad1/School_District_Analysis/blob/main/Math%20By%20Grade%20DF_Updated.png" width="350" height="500">
-- The only score changed by replacing the 9th grade scores of Thomas High School with "NaN" was the average math score for the Thomas High School 9th graders, with the original value of 83.6 being replaced with a "nan"
-- No other math score from any other grade nor school was changed due to the replacement of the 9th grade scores with "NaN"
+- The only score changed by replacing the 9th grade scores of Thomas High School with "NaN" was the average math score for the Thomas High School 9th graders, with the original value of 83.6 being replaced with a "nan". No other math score from any other grade nor school was changed due to the replacement of the 9th grade scores with "NaN"
 
 ### Original Reading Scores by Grade:
 <img src="https://github.com/mbroad1/School_District_Analysis/blob/main/Reading%20By%20Grade%20DF_Original.png" width="350" height="500"> 
 
 ### Updated Reading Scores by Grade: 
 <img src="https://github.com/mbroad1/School_District_Analysis/blob/main/Reading%20By%20Grade%20DF_Updated.png" width="350" height="500">
-- The only score changed by replacing the 9th grade scores of Thomas High School with "NaN" was the average reading score for the Thomas High School 9th graders, with the original value of 83.7 being replaced with a "nan"
-- 
-- No other reading score from any other grade nor school was changed due to the replacement of the 9th grade scores with "NaN"
+- The only score changed by replacing the 9th grade scores of Thomas High School with "NaN" was the average reading score for the Thomas High School 9th graders, with the original value of 83.7 being replaced with a "nan". No other reading score from any other grade nor school was changed due to the replacement of the 9th grade scores with "NaN"
 
