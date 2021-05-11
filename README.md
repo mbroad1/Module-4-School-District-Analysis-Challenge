@@ -61,3 +61,8 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ## Scores by School Size
 - Like with the scores by school spending analysis, there was no difference between the original scores by school size analysis and the updated scores by school size analysis that included the null values 
+### Original Scores by School Size:
+![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20Size_Original.png)
+
+### Updated Scores by School Size:
+![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20Size_Updated.png)
