@@ -24,13 +24,13 @@ A supervisor in charge of evaluating the school district budget for the followin
 
 ### Updated School Summary:
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20Summary%20DF_Updated.png)
-- The only part of the **school summary** analysis that is affected are Thomas High School's "Average Math", "Average Reading", "% Passing Math", "% Passing Reading", and "% Overall Passing" values.
+- The only part of the **school summary** analysis that is affected are Thomas High School's "Average Math Score", "Average Reading Score", "% Passing Math", "% Passing Reading", and "% Overall Passing" values.
   - These values were affected because in the original analysis (shown in the image below), the 9th graders of Thomas High School were included in the total student count; however, the math scores and reading scores of the 9th graders at Thomas High School are **all** missing.
 ### Original School Summary: 
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/School%20Summary%20DF_Original.png)
-- Since these values are missing, the original calculations for "Average Math", "Average Reading", "% Passing Math", "% Passing Reading", and "% Overall Passing" are all skewed to be lower because not all students included in the total for the division to get these percentages have scores (aka, the 9th graders do not have scores).
-- Therefore, when you convert the math and reading scores of the 9th graders from Thomas High School to "NaN" (null scores) and exclude the 9th graders in the total student count to get the percentages for math, reading, and overall passing, you will get the right values of what the "Average Math", "Average Reading", "% Passing Math", "% Passing Reading", and "% Overall Passing" are actually supposed to be in Thomas High School, which are much higher because the students without scores are not incuded in the total students that are being divided to get the percentages and the nonexistent scores of the 9th graders won't affect the calculations because they are null.
-- With the updated analysis, the "Average Math", "Average Reading", "% Passing Math", "% Passing Reading", and "% Overall Passing" values of Thomas High School are now similar to those of other charter high schools.
+- Since these values are missing, the original calculations for "Average Math Score", "Average Reading Score", "% Passing Math", "% Passing Reading", and "% Overall Passing" are all skewed to be lower because not all students included in the total for the division to get these percentages have scores (aka, the 9th graders do not have scores).
+- Therefore, when you convert the math and reading scores of the 9th graders from Thomas High School to "NaN" (null scores) and exclude the 9th graders in the total student count to get the percentages for math, reading, and overall passing, you will get the right values of what the "Average Math Score", "Average Reading Score", "% Passing Math", "% Passing Reading", and "% Overall Passing" are actually supposed to be in Thomas High School, which are much higher because the students without scores are not incuded in the total students that are being divided to get the percentages and the nonexistent scores of the 9th graders won't affect the calculations because they are null.
+- With the updated analysis, the "Average Math Score", "Average Reading Score", "% Passing Math", "% Passing Reading", and "% Overall Passing" values of Thomas High School are now similar to those of other charter high schools.
   - Likewise, these respective values are now significantly greater than those of district high schools where previously they were similar or lower to those of district high schools.
 ---
 ## How did replacing the 9th grade scores of Thomas High School affect math and reading scores by grade, scores by school spending, scores by school size, and scores by school type?
@@ -76,7 +76,7 @@ A supervisor in charge of evaluating the school district budget for the followin
 ![School_District Analysis](https://github.com/mbroad1/School_District_Analysis/blob/main/Scores%20by%20School%20Type_Updated.png)
 ---
 ## Summary
-- The four main changes that occurred due to conversion of the math and reading scores of the 9th graders of Thomas High School to "NaN" was:
+- Four changes that occurred due to conversion of the math and reading scores of the 9th graders of Thomas High School to "NaN" was:
   -  The % Passing Math score of Thomas High School went from 66.91 to 93.27 in the district summary dataframe.
   -  The % Passing Reading score of Thomas High School went from 69.66 to 97.31 in the district summary dataframe.
   -  The % Overall Passing score of Thomas High School went from 65.08 to 90.95 in the district summary dataframe.
